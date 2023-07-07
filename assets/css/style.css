@@ -1,0 +1,106 @@
+/* BODY */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(233,237,238,255);
+}
+
+/* HEADER */
+header {
+    background-color: rgba(34, 47, 63, 255);
+    margin-top: -8px;
+    margin-inline: -8px;
+    padding: 1em;
+}
+
+header img {
+    height: 4em;
+    padding-left: 2em;
+}
+
+header nav {
+    background-color: rgba(54, 71, 87, 255);
+    margin-inline: -20px;
+    margin-bottom: -30px;
+    padding: 1px
+}
+
+.listnav li {
+    list-style: none;
+    display: inline;
+}
+
+.listnav a {
+    color: white;
+    text-decoration: none;
+    margin-inline: 1em;
+    font-size: 20px;
+}
+
+/* MAIN */
+.firstsect p {
+    background-color: rgba(243, 103, 0, 255);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-inline: 3em;
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+.holiday {
+    background-image: url(../img/bg-image.png);
+    font-size: x-large;
+    text-align: center;
+    color: white;
+    background-repeat: repeat;
+    background-size: cover;
+    padding-block: 10px;
+    margin-inline: 2em;
+}
+.cards {
+    background-color: white;
+    margin-top: 2em;
+    margin-inline: 2em;
+    padding: 1em;
+    padding-left: 3em;
+    font-size: large;
+}
+.cards a {
+    color: rgba(8,91,106,255);
+    text-decoration: none;
+}
+.cards div {
+    display: inline;
+    padding-left: 1em;
+    padding-top: 7px; 
+    
+}
+.cards img{
+    width: 375px;
+    height: 410px;
+    border-radius: 2em;
+    object-fit: cover;
+    box-shadow: rgba(150, 150, 150, 0.247) 13px 10px 9px;   
+}
+.bigcard {
+    text-align: center;
+}
+.bigcard a {
+    color: rgba(8,91,106,255);
+    text-decoration: none;
+}
+.bigcard div {
+    margin-inline: 2.2em;
+    padding-top: 2em;
+}
+.bigcard img {
+    width: 113em;
+}
+/* FOOTER */
+footer {
+    background-color: rgba(34, 47, 63, 255);
+    
+}
+footer a {
+    color: white;
+}
