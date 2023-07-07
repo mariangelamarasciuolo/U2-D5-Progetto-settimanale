@@ -19,7 +19,7 @@ header img {
 
 header nav {
     background-color: rgba(54, 71, 87, 255);
-    margin-inline: -20px;
+    margin-inline: -16px;
     margin-bottom: -30px;
     padding: 1px
 }
@@ -42,7 +42,7 @@ header nav {
     color: white;
     padding: 10px;
     text-align: center;
-    margin-inline: 3em;
+    margin-inline: 2.2em;
     margin-top: 3em;
     margin-bottom: 2em;
 }
@@ -55,7 +55,7 @@ header nav {
     background-repeat: repeat;
     background-size: cover;
     padding-block: 10px;
-    margin-inline: 2em;
+    margin-inline: 1.5em;
 }
 .cards {
     background-color: white;
@@ -71,16 +71,17 @@ header nav {
 }
 .cards div {
     display: inline;
-    padding-left: 1em;
-    padding-top: 7px; 
+    padding-top: 7px;
+    width: 20%; 
     
 }
 .cards img{
     width: 375px;
-    height: 410px;
+    height: 468px;
     border-radius: 2em;
     object-fit: cover;
-    box-shadow: rgba(150, 150, 150, 0.247) 13px 10px 9px;   
+    box-shadow: rgba(150, 150, 150, 0.247) 13px 10px 9px;  
+    margin-right: 56px; 
 }
 .bigcard {
     text-align: center;
@@ -99,9 +100,25 @@ header nav {
 }
 /* FOOTER */
 footer {
-    background-color: rgba(34, 47, 63, 255);
-    
+    margin-top: 2em;
+    text-align: center;
+    margin-inline: -8px;
+}
+footer p {
+    background-color: rgba(54,71,89,255);
+    padding-block: 1em;
+    margin-bottom: -2px;
 }
 footer a {
     color: white;
+    text-decoration: none;
+}
+footer div {
+    background-color: rgba(34, 47, 63, 255);
+    padding: 2.3em; 
+
+}
+footer img {
+    width: 15%;
+    padding-top: 5px;
 }
